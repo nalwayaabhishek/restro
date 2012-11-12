@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddAvatarColumnsToRestaurants	db/migrate/20120901120311_add_avatar_columns_to_restaurants.rb	/^class AddAvatarColumnsToRestaurants < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:ResturantRolodex
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+CreateRestaurants	db/migrate/20120901090953_create_restaurants.rb	/^class CreateRestaurants < ActiveRecord::Migration$/;"	c
+Restaurant	app/models/restaurant.rb	/^class Restaurant < ActiveRecord::Base$/;"	c
+RestaurantTest	test/unit/restaurant_test.rb	/^class RestaurantTest < ActiveSupport::TestCase$/;"	c
+RestaurantsController	app/controllers/restaurants_controller.rb	/^class RestaurantsController < ApplicationController$/;"	c
+RestaurantsControllerTest	test/functional/restaurants_controller_test.rb	/^class RestaurantsControllerTest < ActionController::TestCase$/;"	c
+RestaurantsHelper	app/helpers/restaurants_helper.rb	/^module RestaurantsHelper$/;"	m
+RestaurantsHelperTest	test/unit/helpers/restaurants_helper_test.rb	/^class RestaurantsHelperTest < ActionView::TestCase$/;"	c
+ResturantRolodex	config/application.rb	/^module ResturantRolodex$/;"	m
+about	public/index.html	/^      function about() {$/;"	f
+change	db/migrate/20120901090953_create_restaurants.rb	/^  def change$/;"	f	class:CreateRestaurants
+create	app/controllers/restaurants_controller.rb	/^  def create$/;"	f	class:RestaurantsController
+destroy	app/controllers/restaurants_controller.rb	/^  def destroy$/;"	f	class:RestaurantsController
+down	db/migrate/20120901120311_add_avatar_columns_to_restaurants.rb	/^  def self.down$/;"	F	class:AddAvatarColumnsToRestaurants
+edit	app/controllers/restaurants_controller.rb	/^  def edit$/;"	f	class:RestaurantsController
+index	app/controllers/restaurants_controller.rb	/^  def index$/;"	f	class:RestaurantsController
+new	app/controllers/restaurants_controller.rb	/^  def new$/;"	f	class:RestaurantsController
+search	app/controllers/restaurants_controller.rb	/^    def search$/;"	f	class:RestaurantsController
+search	app/models/restaurant.rb	/^  def self.search(search_string)$/;"	F	class:Restaurant
+show	app/controllers/restaurants_controller.rb	/^  def show$/;"	f	class:RestaurantsController
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+up	db/migrate/20120901120311_add_avatar_columns_to_restaurants.rb	/^   def self.up$/;"	F	class:AddAvatarColumnsToRestaurants
+update	app/controllers/restaurants_controller.rb	/^  def update$/;"	f	class:RestaurantsController

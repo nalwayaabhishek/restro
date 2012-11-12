@@ -1,0 +1,35 @@
+<%= form_for(@restaurant, :html => { :multipart => true } ) do |f| %>
+  <% if @restaurant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+
+      <ul>
+      <% @restaurant.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :food_type %><br />
+    <%= f.select :food_type_id, @food_types.map {|food_type| [food_type.name, food_type.id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br />
+    <%= f.select :city_id, @cities.map{|city| [city.name, city.id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :desc %><br />
+    <%= f.text_area :desc %>
+  </div>
+
+   <%= f.file_field :avatar %>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

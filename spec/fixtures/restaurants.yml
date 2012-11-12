@@ -1,0 +1,14 @@
+restaurant_yellow:
+ id: 1
+ name: Yello chilli
+ city_id: 1
+ food_type: 1
+ desc: Spicy food
+
+restaurant_di:
+ id: 2
+ name: Yello chilli
+ city_id: 2
+ food_type: 2
+ desc: Spicy food
+
