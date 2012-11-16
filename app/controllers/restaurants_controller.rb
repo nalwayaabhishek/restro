@@ -99,8 +99,9 @@ class RestaurantsController < ApplicationController
     search_restaurants.each do |search_restaurant|
       restaurant = Hash.new 
       restaurant['name'] = search_restaurant.name
-      restaurant['thumb_url_image'] = search_restaurant.avatar.url(:thumb)  
+      restaurant['thumb_url_image'] = "http://"+request.host_with_port + search_restaurant.avatar.url(:thumb)  
       restaurant['food_type'] = search_restaurant.food_type.name  
+      restaurant['desc'] = search_restaurant.desc
       restaurants << restaurant
     end
     restaurants
