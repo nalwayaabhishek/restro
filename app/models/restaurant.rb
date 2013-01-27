@@ -1,5 +1,5 @@
 class Restaurant < ActiveRecord::Base
-  attr_accessible  :desc, :food_type_id, :name, :avatar, :city_id
+  attr_accessible  :desc, :food_type_id, :name, :avatar, :city_id, :latitude, :longitude
   validates :name, :presence => true 
   belongs_to :city
   belongs_to :food_type

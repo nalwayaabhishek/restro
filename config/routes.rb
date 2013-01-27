@@ -6,6 +6,7 @@ ResturantRolodex::Application.routes.draw do
   resources :restaurants do
 collection do
 get 'search'
+get 'find_restaurent_distance'
 end
   end
 
